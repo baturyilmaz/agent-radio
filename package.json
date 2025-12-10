@@ -1,0 +1,49 @@
+{
+  "name": "agent-radio",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "format:write": "prettier --write \"**/*.{ts,tsx}\" --cache",
+    "format:check": "prettier --check \"**/*.{ts,tsx}\" --cache"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "latest",
+    "@google/generative-ai": "latest",
+    "@radix-ui/react-slot": "latest",
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "next-themes": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwind-merge": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "latest",
+    "@next/eslint-plugin-next": "latest",
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/three": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prettier": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
